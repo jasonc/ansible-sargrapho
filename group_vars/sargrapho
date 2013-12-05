@@ -1,0 +1,3 @@
+---
+sargrapho_rpm    : 'sargrapho-1.0.0-1.noarch.rpm'
+sargrapho_rpm_url: "https://github.com/jasonc/sargrapho/releases/download/v1.0.0/{{ sargrapho_rpm }}"

@@ -1,0 +1,7 @@
+---
+- name: Install rrdtool
+  yum: name=rrdtool state=present
+
+- name: Install SarGraphO
+  yum: name={{ sargrapho_rpm_url }} state=present
+

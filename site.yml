@@ -1,0 +1,11 @@
+---
+# This playbook deploys SarGraphO
+
+- name: Install SarGraphO and dependencies
+  gather_facts: no
+  hosts: sargrapho
+  user: root
+    
+  roles:
+    - sargrapho
+
